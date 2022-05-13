@@ -58,7 +58,7 @@ a:active {
 #contact {
     display: flex;
     width: 100%;
-    padding: 100px;
+    padding: 150px;
 }
 
 .img {
@@ -93,18 +93,24 @@ a:active {
     display: flex;
     justify-content: center;
     align-items: center;
-    /* margin: auto; */
+    margin: 100px;
+    margin-left: 150px;
 }
 
 .form-group {
     width: 100%;
+    display: flex;
+    margin: 10px;
+    justify-content: left;
 }
 
 .form form {
-    width: 100%;
+    width: 1050px;
     display: flex;
     flex-direction: column;
-    padding: 20px;
+    padding: 10px;
+    align-items: right;
+    justify-content: center;
 }
 
 .form label {
@@ -113,17 +119,17 @@ a:active {
 }
 
 .form input {
+    width: 100%;
     font-family: sans-serif;
     font-size: 1.3rem;
-    width: 100%;
     padding: 0.5rem;
     border-radius: 5px;
 }
 
 .form textarea {
+    width: 100%;
     font-family: sans-serif;
     font-size: 1.3rem;
-    width: 100%;
     padding: 0.5rem;
     border-radius: 5px;
 }
