@@ -99,9 +99,7 @@ a:active {
 
 .form-group {
     width: 100%;
-    display: flex;
     margin: 10px;
-    justify-content: left;
 }
 
 .form form {
